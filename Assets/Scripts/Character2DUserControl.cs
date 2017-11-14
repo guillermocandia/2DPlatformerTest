@@ -12,6 +12,7 @@ namespace Platformer2D
        
         private float move;
         private bool running;
+        private bool jump;
 
         private void Awake()
         {
@@ -20,17 +21,14 @@ namespace Platformer2D
             
         private void Update()
         {
-            
-
-        }
-            
-        private void FixedUpdate()
-        {
             move = Input.GetAxis("Horizontal");
             running = Input.GetButton("Fire3");
+            jump = Input.GetButton("Jump");
 
             character2D.running = running;
             character2D.move = move;
+            character2D.jump = jump;
         }
+
     }
 }
