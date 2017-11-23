@@ -14,7 +14,7 @@ namespace Platformer2D
         [SerializeField] private float speed_walk = 40.0f;
         [SerializeField] private float speed_run = 100.0f;
         [SerializeField] private float speed_jump = 100.0f;
-        [SerializeField] private float max_jump_height = 128.0f;
+        [SerializeField] private float max_jump_height = 64.0f;
         [SerializeField] private bool air_control;
 
         private Rigidbody2D rg2D;

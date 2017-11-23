@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 212178458205947342}
   - component: {fileID: 50651907076868638}
   - component: {fileID: 70273267792039442}
+  - component: {fileID: 95953051425763368}
   - component: {fileID: 114585577954126838}
   - component: {fileID: 114763993939980748}
-  - component: {fileID: 95953051425763368}
   - component: {fileID: 114023547205037578}
   m_Layer: 0
   m_Name: 2DPlayer
@@ -158,7 +158,7 @@ MonoBehaviour:
   speed_walk: 40
   speed_run: 100
   speed_jump: 100
-  max_jump_height: 128
+  max_jump_height: 64
   air_control: 0
   move: 0
   running: 0
