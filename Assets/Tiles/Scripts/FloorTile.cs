@@ -1,10 +1,5 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Tilemaps;
-using UnityEngine.Events;
-using System.Runtime.Serialization;
-using UnityEngine.UI;
-
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -14,7 +9,7 @@ using UnityEditor;
 public class FloorTile : Tile 
 {
     [Header("Sprites 3")]
-    [SerializeField] private Sprite[] sprites = new Sprite[3];
+    [SerializeField] public Sprite[] sprites = new Sprite[3];
 
     public override void RefreshTile(Vector3Int location, ITilemap tilemap)
     {
