@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Platformer2D
+namespace PlatformerTest
 {
     [RequireComponent(typeof(Character2D))]
     public class Character2DUserControl : MonoBehaviour

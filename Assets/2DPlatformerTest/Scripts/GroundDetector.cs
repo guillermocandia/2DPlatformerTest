@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Platformer2D
+namespace PlatformerTest
 {
     [RequireComponent(typeof(Character2D))]
     public class GroundDetector : MonoBehaviour
