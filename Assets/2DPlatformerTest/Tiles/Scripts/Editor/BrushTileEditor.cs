@@ -3,10 +3,10 @@ using UnityEngine;
 using UnityEditor;
 using PlatformerTest.Tiles;
 
-namespace PlatformerTest.Tiles.Editor
+namespace PlatformerTest.Tiles.EditorScripts
 {
     [CustomEditor(typeof(BrushTile))]
-    public class BrushTileEditor : UnityEditor.Editor
+    public class BrushTileEditor : Editor
     {
         public override void OnInspectorGUI()
         {
