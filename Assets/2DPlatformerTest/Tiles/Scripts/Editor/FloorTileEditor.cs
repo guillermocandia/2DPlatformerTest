@@ -1,11 +1,12 @@
 ﻿using System;
 using UnityEngine;
 using UnityEditor;
+using PlatformerTest.Tiles;
 
-namespace PlatformerTest.Tiles
+namespace PlatformerTest.Tiles.Editor
 {
     [CustomEditor(typeof(FloorTile))]
-    public class FloorTileEditor : Editor
+    public class FloorTileEditor : UnityEditor.Editor
     {
         public override void OnInspectorGUI()
         {
